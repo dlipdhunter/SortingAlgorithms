@@ -45,8 +45,9 @@ function QuickSort(items){
 
 var itemsToSort = [2, 10, 5, 1, 8, 4, 9, 3, 7, 6];
 var quickSortObj = new QuickSort(itemsToSort);
+console.log("Quick Sort Algorithm");
 console.log("Before: \n" + itemsToSort);
-var sortedItems = quickSortObj.sort();
-console.log("After: \n" + sortedItems);
+quickSortObj.sort();
+console.log("After: \n" + itemsToSort);
 
 })();
